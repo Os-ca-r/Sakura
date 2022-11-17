@@ -88,6 +88,7 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
+    display:block
 }
 /* menu */
 .menu-header {
@@ -98,46 +99,101 @@
     width:100%;
     background-position: center;
 }
-.menu-header ul{
-    padding-top:202px;
+.nav-tabs {
+    border:none;
 }
 .menu {
-    background-color: black;
-    height:1000px;
-    
+    background-color: #8B1F1F;
 }
-
-
+.menu-content {
+    background-color: black;
+    position:absolute;
+    width:100%
+}
+#first-half {
+    border-right:1px solid white;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+#second-half {
+    border-left:1px solid white;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.menu .nav-link {
+    border-top:3px solid black;
+    border-bottom:3px solid black;
+    border-left:3px solid white;
+    border-right:3px solid white;
+    height:100%;
+    border-radius:2px;
+}
+.menu .nav-link.active {
+    background-color:#8B1F1F;
+    color:white;
+    margin-top:-10px;
+    border-top:3px solid #311313;
+    border-left:3px solid #311313;
+    border-right:3px solid #311313;
+    border-bottom:3px solid #311313;
+    border-color:#311313;
+    height:55px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.menu .nav-link:hover {
+    border-color:#311313
+}
+.menu-items {
+    background-color:#8B1F1F;
+    margin:40px;
+    border-radius:2rem
+}
+.menu-items li {
+    line-height: 40px;
+    list-style:none;
+}
 /* order */
 
 /* about */
 
 /* contact */
+.iframe{
+    margin: auto;
+}
 #contactbody{
     background-color:black;
 }
 .contact-top{
     color:white;
+    padding-top:60px;
 }
 #first-li{
     list-style: none;
-    padding-top: px;
-    padding-left:120px;
+    padding-right:30px ;
+    
 }
-#first-li-header{
+#contact-li-header{
     text-align: center;
     list-style: none;
-    padding-top: px;
-    padding-left:120px;
 }
 
 .contact-img-border{
     border-radius: 60px;
     background-position: left top;
     background-repeat: repeat;
-    padding: 20px; 
     width: 375px;
     height: 225px;
+}
+.red-contact-border{
+    border-left: #8B1F1F;
+    border-left-style: solid;
+    margin-top:15px;
+    margin-bottom:60px; 
 }
 /* catering */
 
@@ -161,5 +217,5 @@
     
     border-left-style: solid;
     border-color: black;
-    margin-top:15px
+    margin-top:15px;
 }
