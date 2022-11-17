@@ -151,19 +151,46 @@
 .menu-items {
     background-color:#8B1F1F;
     margin:40px;
-    border-radius:2rem
+    border-radius:2rem;
+    padding-bottom:15px
 }
 .menu-items li {
     line-height: 40px;
     list-style:none;
 }
+.mid-content {
+    margin-left:150px;
+}
 /* order */
 
 /* about */
+#about-top{
+    background-image: url(image/aboutheader.png);
+    background-size:100%;
+    width: 100%;
+    height: 100%;
+    color:white;
+    padding-top:225px;
+    background-repeat: no-repeat;
+}
+#aboutus{  
+    background: #000000;
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom:150px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
 
 /* contact */
 .iframe{
-    margin: auto;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top:15px;
 }
 #contactbody{
     background-color:black;
@@ -192,8 +219,12 @@
 .red-contact-border{
     border-left: #8B1F1F;
     border-left-style: solid;
-    margin-top:15px;
-    margin-bottom:60px; 
+    margin-top:10px;
+    margin-bottom:10px; 
+}
+iframe {
+    align-content: center;
+    width:
 }
 /* catering */
 
