@@ -162,7 +162,17 @@
     margin-left:150px;
 }
 /* order */
-
+.order {
+    background-image: url(image/orderbg.png);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    height:750px;
+    background-position: center;
+}
+.orderheader h2{
+    margin-top:100px;
+    font-size: 40px;
+}
 /* about */
 #about-top{
     background-image: url(image/aboutheader.png);
@@ -170,22 +180,57 @@
     width: 100%;
     height: 100%;
     color:white;
-    padding-top:225px;
     background-repeat: no-repeat;
 }
-#aboutus{  
-    background: #000000;
+#about-us-mid{
+    background-image:url(image/aboutmiddleimage.png);
+    background-size:cover;
+    background-attachment: fixed;
+    width:100%;
+    height:100%;
+    background-repeat:no-repeat;
+}
+#about-us-bottom{
+    background-image:url(image/aboutbottomimage.png);
+    background-size:2000px;
+    background-repeat:no-repeat;
+    height:1000px;
+    width:100%;
+    height:100%;
+    background-position: top;
+   
+}
+#aboutus{ 
+    background: rgba(139, 31, 31, 1);
     border-radius: 25px;
     margin: auto;
-    margin-bottom:150px;
-    width: 200px;
-    height: 100px;
+    margin-top:75px;
+    margin-bottom:75px;
+    width: 250px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 25px;
+    opacity: 80%;
+    color:black;
 }
+.about-middle-row1{
+margin-top:50px;
+color:white;
+font-size:20px;
+}
+.about-middle-row2{
+margin-top:25px;
+margin-bottom:25px;
+color:white;
+}
+.aboutbg {
+    background: linear-gradient(0deg, rgb(26, 26, 33), rgba(38, 33, 33, .7));
+    height:auto;
 
+    
+}
 /* contact */
 .iframe{
     text-align: center;
