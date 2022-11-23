@@ -1,18 +1,12 @@
-let toTop= document.getElementById("to-top");
-window.onscroll = function () {
-    scroll();
-    };
-function scroll() {
-    if(document.body.scrollTop > 20 ||
-        document.documentElement.scrollTop > 20){
-            toTop.style.display="block";
-        }else {
-            toTop.style.display="none";
-        }
+const backToTopButton = document.querySelector("toTop");
+
+window.addEventListener("scroll", scrollFunction);
+
+function scrollFunction() {
+  if (window.pageYOffset > 300) { // Show backToTopButton
+
+      backToTopButton.style.display = "block";
+    }else{
+    backToTopButton.style.display = "none";;
+    }
 }
-toTop.addEventListener("click", top );
-function top(){
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
-let name=
