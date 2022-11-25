@@ -85,11 +85,42 @@
     }
   }
 #toTop {
+    background: white;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 16px;
+    right:32px;
+    width:50px;
     height:50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:32px;
+    color:#1f1f1f;
+    text-decoration: none;
+    opacity:0;
+    pointer-events: none;
+    transition: all .4s;
 }
+#toTop.active {
+    bottom:32px;
+    pointer-events: auto;
+    opacity:1;
+  }
+  .store-btn {
+    background: white;
+    position: fixed;
+    bottom: 16px;
+    right:32px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:32px;
+    color:#1f1f1f;
+  }
 /* menu */
 .menu-header {
     background-image: url(image/menuheader.png);
@@ -152,7 +183,10 @@
     background-color:#8B1F1F;
     margin:40px;
     border-radius:2rem;
-    padding-bottom:15px
+    padding-bottom:15px;
+}
+.hibachi-menu #first-half, .hibachi-menu #second-half{
+    border:none
 }
 .menu-items li {
     line-height: 40px;
@@ -161,6 +195,24 @@
 .mid-content {
     margin-left:150px;
 }
+.hibachi {
+    font-size:15px;
+    text-align: center;
+}
+.lunch h5 {
+    margin-bottom:8px;
+    margin-top: 4px;
+    font-size:16px;
+    text-align: center;
+}
+.chinese, .hibachi-menu, .kids-menu, .soup-menu, .donburi-menu, .appetizers-menu{
+    text-align: center;
+}
+#h6-small {
+    font-size:smaller
+}
+ 
+
 /* order */
 .order {
     background-image: url(image/orderbg.png);
@@ -220,6 +272,9 @@ margin-top:50px;
 color:white;
 font-size:20px;
 }
+#about-para {
+   margin-top: 50px;
+}
 .about-middle-row2{
 margin-top:25px;
 margin-bottom:25px;
@@ -228,8 +283,17 @@ color:white;
 .aboutbg {
     background: linear-gradient(0deg, rgb(26, 26, 33), rgba(38, 33, 33, .7));
     height:auto;
-
-    
+}
+#about-us-bottom {
+    background-color: url(image/about-bottom.png);
+    height:400px;
+    background-position: center;
+}
+.payments {
+    padding:20px;
+    background-color:#8B1F1F;
+    height:300px;
+    margin-top:100px
 }
 /* contact */
 .iframe{
@@ -269,7 +333,7 @@ color:white;
 }
 iframe {
     align-content: center;
-    width:
+    
 }
 /* catering */
 
@@ -290,8 +354,13 @@ iframe {
     color:burlywood
 }
 .border-left {
-    
     border-left-style: solid;
     border-color: black;
     margin-top:15px;
 }
+.test {
+    height:2000px;
+    color:green
+}
+  
+ 

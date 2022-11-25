@@ -53,19 +53,24 @@
     <div class="nav nav-tabs menu">
       <button class="nav-link active"  data-bs-toggle="tab" data-bs-target="#sushi" >Sushi</button>
       <button class="nav-link"  data-bs-toggle="tab" data-bs-target="#lunch-specials"  >Lunch Specials</button>
-      <button class="nav-link"  data-bs-toggle="tab" data-bs-target="#chinese"  >Chinese</button>
+      <button class="nav-link"  data-bs-toggle="tab" data-bs-target="#chinese" >Chinese</button>
+      <button class="nav-link"  data-bs-toggle="tab" data-bs-target="#hibachi"  >Hibachi</button>
+      <button class="nav-link"  data-bs-toggle="tab" data-bs-target="#kids"  >Kids Menu</button>
+      <button class="nav-link"  data-bs-toggle="tab" data-bs-target="#soupSalad"  >Soups & Salad</button>
+      <button class="nav-link"  data-bs-toggle="tab" data-bs-target="#donburi"  >Donburi</button>
+      <button class="nav-link"  data-bs-toggle="tab" data-bs-target="#appetizers"  >Appetizers</button>
     </div>
   </nav>
-  <div class="tab-content menu-content" id="nav-tabContent">
+  <div class="tab-content menu-content " id="nav-tabContent">
     <div class="tab-pane fade show active" id="sushi" >
       
-      <section class="menu-items">
-        <div class="container">
+      <section class="menu-items ">
+        <div class="container sushi">
         <div class="row">
-          <div class="col-md-6 "id="first-half">
+          <div class="col-md-6 formHolder"id="first-half">
             <h3 class="text-center mt-2">Sushi</h3>
-          <h5>Beef Tataki</h5><li> Thinly sliced beef served with fish eggs, chives, oroshi, sriracha, wasabi, and ponzu sauce.</li>
-            
+          <h5 id="orderBeef">Beef Tataki</h5><li> Thinly sliced beef served with fish eggs, chives, oroshi, sriracha, wasabi, and ponzu sauce.</li>
+          <button type="button" id="addBtn" class="btn-primary">Add Item</button>
             <br>
           <h5>Tuna Tataki</h5><li> Thinly sliced tuna served with fish eggs, chives, oroshi, sriracha, wasabi, ponzu sauce.</li>
             <br>
@@ -123,7 +128,7 @@
     </div>
     </div>
     <div class="tab-pane fade menu-content" id="lunch-specials">
-      <section class="menu-items">
+      <section class="menu-items lunch">
         <div class="container">
         <div class="row">
           <div class="col-md-6 "id="first-half">
@@ -141,65 +146,331 @@
             <h3 class="text-center">Katsu</h3>
             <h6 class="text-center">(Breaded and fried served w. katsu sauce)</h6>
           <h5>Chicken Katsu</h5>
-            <br>
+          
           <h5>TonKatsu</h5>
-            <br>
+         
             <h3 class="text-center">Tempura</h3>
-            <br>
+           
             <h5>Shrimp Temprua</h5>
-            <br>
+            
           <h5>Chicken Tempura</h5>
-          <br>
+          
           <h5>Vegetable Tempura</h5>
-          <br>
-          <h3 class="text-center">Sushi Roll Combination</h3>
-          <h6 class="text-center">(Any 2 Rolls or any 3 Rolls)</h6>
-          <div class="row">
-            <div class="col-md-6 text-center">California</div>
-            <div class="col-md-6 text-center">Tuna</div>
-        </div>
+          <h3 class="text-center">Deserts</h3>
+          <h5>Vanilla Ice Cream</h5>
+          
+          <h5>Green Tea Ice Cream</h5>
+  
+          <h5>Red Bean Ice Cream</h5>
+  
+          <h5>Mango Ice Cream</h5>
+   
+          <h5>Banana Tempura</h5>
+          <h6>Battered and fried bananas topped with honey and powdered sugar</h6>
+     
+          <h5>Banana Temprua with Ice Cream</h5>
+          <h6>served with your choice of ice cream</h6>
+       
+          <h5>Cheese cake Tempura</h5>
+  
+          <h5>Ginger Ice Cream</h5>
+  
+          
             </div>
           <div class="col-md-6" id="second-half"><h3 class="text-center mt-2">Hibachi</h3>
           <h6 class="text-center">(w.Fried Rice)</h6>
 
-          
-            <h5>Vegetable</h5>
+          <div class="row">
+            <div class="col-md-6 text-center"><h5  class="hibachi">Vegetable</h5>
+              <br>
+              <h5 class="hibachi">Chicken</h5>
+              <br>
+              <h5 class="hibachi">Steak</h5>
+              <br>
+              <h5 class="hibachi">Salmon</h5>
+              <br></div>
+            <div class="col-md-6 text-center">
+              <h5 class="hibachi">Shrimp</h5>
+              <br>
+              <h5 class="hibachi">Scallop</h5>
+              <br>
+              <h5 class="hibachi">Steak & Chicken</h5>
+              <br>
+              <h5 class="hibachi">Steak & Shrimp</h5>
+              <br></div>
+        </div>
+            
+            
+            <h5 class="hibachi">Shrimp & Chicken</h5>
             <br>
-            <h5>Chicken</h5>
-            <br>
-            <h5>Steak</h5>
-            <br>
-            <h5>Salmon</h5>
-            <br>
-            <h5>Shrimp</h5>
-            <br>
-            <h5>Steak & Chicken</h5>
-            <br>
-            <h5>Steak & Shrimp</h5>
-            <br>
-            <h5>Shrimp & Chicken</h5>
-            <br>
-            <h5>White Fish</h5>
-            <br>
-            <h5>White Tuna</h5>
-            <br>
-            <h5>Yellowtail</h5>
-            <br>
-            <h5>4 Kind Sashimi </h5>
-            <br>
-            <h5>6 Kind Sashimi</h5>
-            <br>
-            <h5>8 Kind Sashimi</h5>
-            <br>
-            <h5>Sashimi (assorted)</h5><li>(18pcs) (26pcs) (34pcs)</li>
+            <h3 class="text-center mt-2">Lunch Combos</h3>
+            <h6 class="text-center">(w. Soup & Salad)</h6>
+            <h5 class="text-center">Sushi Lunch</h5>
+            <h6 class="text-center">6pcs Sushi & California Roll</h6>
+            <h3 class="text-center">Sushi Roll Combination</h3>
+          <h6 class="text-center">(Any 2 Rolls or any 3 Rolls)</h6>
+          <div class="row">
+            <div class="col-md-6 text-center">
+              <li>California</li>
+              <li>Tuna</li>
+              <li>Crunchy Spicy Tuna</li>
+              <li>Alaska</li>
+              <li>Jackson</li>
+              <li>Fresh Salmon</li>
+              <li>Deep Sea</li>
+              <li>Spicy Tuna</li>
+              <li>Cucumber</li>
+              <li>Dynamite</li>
+              <li>Snowcrab</li></div>
+            <div class="col-md-6 text-center">
+              <li>Crunchy</li>
+              <li>Avocado</li>
+              <li>Chicken Tempura</li>
+              <li>Crunchy Shrimp</li>
+              <li>Eel</li>
+              <li>Philadelphia</li>
+              <li>Crunchy Spicy Salmon</li>
+              <li>Shrimp Temprua</li>
+              <li>Sweet Potato</li>
+              <li>Yellow Tail</li>
+              <li>Super White Tuna Jalapeno</li></div>
+        </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
+    
+    <div class="tab-pane fade menu-content" id="chinese">
+      <section class="menu-items ">
+        <div class="container chinese">
+        <div class="row">
+          <div class="col-md-6 "id="first-half">
+            <h3 class="text-center mt-2">Chinese Menu</h3>
+            <h6>Egg Drop Soup</h6>
+            <h6>Hot & Sour Soup</h6>
+            <h6>Egg Roll (2pcs)</h6>
+            <h6>Combination</h6>
+            <h3 class="text-center mt-2">Lunch Specials</h3>
+            <h5 class="text-center">(Served with Fried rice & Egg Drop Soup)</h5>
+            <h5 class="text-center">(Available Daily 11am to 2pm)</h5>
+            <h6>Chicken with Broccoli</h6>
+            <h6>Sweet and Sour Chicken</h6>
+            <h6>Beef with Broccoli</h6>
+            <h6>Pepper Steak</h6>
+            <h6>General Tso's Chicken</h6>
+            <h6>Sesame Chicken</h6>
+            <h6>Sautéed Mixed Vegetable</h6>
+            <h6>Kung Pao Chicken</h6>
+          </div>
+          <div class="col-md-6" id="second-half">
+            <h3 class="text-center mt-2">Lo Mein</h3>
+            <h6>Chicken</h6>
+            <h6>Vegetable</h6>
+            <h6>Beef</h6>
+            <h6>Shrimp</h6>
+            <h3 class="text-center mt-2">Dinner Entrée</h3>
+            <h5 class="text-center">(Served with white rice, Egg roll & Egg Drop Soup)</h5>
+
+            <h6>Chicken with Broccoli</h6>
+            <h6>Sweet & Sour Chicken</h6>
+            <h6>Beef with Broccoli</h6>
+            <h6>Pepper Steak</h6>
+            <h6>General Tso's Chicken</h6>
+            <h6> Mongolian Beef </h6>
+            <h6>Sautéed Mixed Vegetable</h6>
+            <h6>Sweet & Sour Chicken</h6>
+            <h6>Bean Curd Home Style</h6>
+            <h6>Kung Pao Chicken</h6>
           </div>
         </div>
       </div></section>
     </div>
-    <div class="tab-pane fade" id="chinese">...</div>
   </div>
-  <section>
+  <div class="tab-pane fade menu-content" id="hibachi">
+    <section class=" menu-items hibachi-menu">
+      <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="text-center mt-4">Hibachi Dinner</h3>
+          <h5 class="text-center">Served with clear soup, salad, fried rice, vegetable</h5>
+          <h6>Vegetable</h6>
+          <h6>Chicken</h6>
+          <h6>Steak</h6>
+          <h6>Salmon</h6>
+          <h6>Shrimp</h6>
+          <h6>Scallop</h6>
+          <h6>Steak & Chicken</h6>
+          <h6>Steak & Shrimp</h6>
+          <h6>Shrimp & Chicken</h6>
+          <h6>Steak, Shrimp & Chicken</h6>
+        </div>
+      </div>
+    </div></section>
+  </div>
+  <div class="tab-pane fade menu-content" id="kids">
+    <section class=" menu-items kids-menu">
+      <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="text-center mt-4">Children's Menu</h3>
+          <h5 class="text-center">10 years and younger. Included cabbage and broccoli salad, apple, orange, and mixed rice or french fries</h5>
+          <h6>Chicken Katsu</h6>
+          <h6>Chicken Teriyaki</h6>
+          <h6>Chicken Tempura</h6>
+          <h6>Crab Stick Tempura</h6>
+          <h6>Shrimp Tempura</h6>
+          <h6>Yakitori (Chicken on a Stick)</h6>
+        </div>
+      </div>
+    </div></section>
+  </div>
+    <div class="tab-pane fade menu-content" id="soupSalad">
+    <section class=" menu-items soup-menu">
+      <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="text-center mt-4">Soups</h3>
+          <h6>Clear Soup</h6>
+          <h6 id="h6-small"></h6>
+          <h6>(Chicken broth base with noodles, chives, and seaweed)</h6>
+          <h6>Miso Soup</h6>
+          <h6 id="h6-small">(Soybean base with tofu, chives, and seaweed.)</h6>
+          <h6>Seafood Soup</h6>
+          <h6 id="h6-small">(White fish, shrimp, crabstick and mushroom)</h6>
+          <h3 class="text-center mt-4">Sunomono</h3>
+          <h5 class="text-center">Cucumber, seaweed and a choice of one of the following:</h5>
+          <h6>Crab Stick</h6>
+          <h6>Octopus</h6>
+          <h6>Shrimp</h6>
+          <h6>Vegetable</h6>
+          <h6>House Salad</h6>
+          <h6 id="h6-small">(Served with creamy or ginger dressing.)</h6>
+          <h6>Broccoli Salad</h6>
+          <h6 id="h6-small">(Broccoli served with broccoli sauce.)</h6>
+          <h6>Cucumber Salad</h6>
+          <h6 id="h6-small">(Marinated cucumber with seaweed on top)</h6>
+          <h6>Seaweed Salad</h6>
+          <h6 id="h6-small">(Marinated seaweed on top of cucumber)</h6>
+          <h6>Squid Salad</h6>
+          <h6 id="h6-small">(Marinated squid on top of cucumber.)</h6>
+          <h6>Kim Salad</h6>
+          <h6 id="h6-small">(Seaweed & Squid on top of cucumber)</h6>
+          <h6>Grilled Chicken Salad</h6>
+          <h6 id="h6-small">(Grilled chicken served over lettuce)</h6>
+          <h6>Salmon Skin Salad</h6>
+          <h6 id="h6-small">(Baked salmon skin served over lettuce.)</h6>
+          <h6>Spicy Tuna Salad</h6>
+          <h6 id="h6-small">(Spicy tuna, chives, fish eggs and ponzu sauce served over lettuce)</h6>
+          <h6>Mermaid Salad</h6>
+          <h6 id="h6-small">(Tuna, white tuna, cucumber, avocado, fish eggs, mayonnaise and sriracha</h6>
+          <h6>Kani Salad</h6>
+          <h6 id="h6-small">(Crab stick, cucumber, lettuce, fish egg)</h6>
+          <h6>Royal 7 Salad</h6>
+          <h6 id="h6-small">(Crab stick, crawfish, squid, fish egg)</h6>
+          <h6>Golden Crab Salad</h6>
+          <h6 id="h6-small">(Crab stick, fish egg over bed of crispy noodles)</h6>
 
+        </div>
+      </div>
+    </div></section>
+  </div>
+  <div class="tab-pane fade menu-content" id="donburi">
+    <section class=" menu-items donburi-menu">
+      <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="text-center mt-4">Donburi</h3>
+          <h5 class="text-center">Simmered dish served over a large bowl of rice</h5>
+          <h6>Oyako Don</h6>
+          <h6 id="h6-small">(Chicken, egg, mushroom & onion cooked with tempura sauce)</h6>
+          <h6>Ten Don</h6>
+          <h6 id="h6-small">(Shrimp & vegetable tempura with tempura sauce)</h6>
+          <h6>Katsudon</h6>
+          <h6 id="h6-small">(Breaded & fried pork, egg, mushroom & onion cooked with tempura sauce)</h6>
+          <h6>Chicken Katsudon</h6>
+          <h6 id="h6-small">(Breaded & fried chicken, egg, mushroom & onion cooked with tempura sauce)</h6>
+          <h6>Beef Sukiyaki Don</h6>
+          <h6 id="h6-small">(Beef & vegetables cooked with suki yaki sauce)</h6>
+          <h6>Spicy Chicken Bowl</h6>
+          <h6 id="h6-small">(Korean style Marinated spicy chicken with vegetable over rice)/h6>
+          <h6>Bulgogi Bowl</h6>
+          <h6 id="h6-small">(Marinated beef with vegetable over rice)</h6>
+          <h6>Unagi Don</h6>
+          <h6 id="h6-small">(BBQ eel w. eel sauce)</h6>
+
+        </div>
+      </div>
+    </div></section>
+  </div>
+  <div class="tab-pane fade menu-content" id="appetizers">
+    <section class=" menu-items appetizers-menu">
+      <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="text-center mt-4">Appetizers</h3>
+          <h6>Edamame</h6>
+          <h6 id="h6-small">(Boiled and salted soybeans)</h6>
+          <h6>Shrimp Tempura</h6>
+          <h6 id="h6-small">(Deep Fried shrimp)</h6>
+          <h6>Chicken Tempura</h6>
+          <h6 id="h6-small">(Deep Fried Chicken)</h6>
+          <h6>Vegetable Tempura</h6>
+          <h6>Crab Stick Tempura</h6>
+          <h6 id="h6-small">(Deep Fried crab sticks)</h6>
+          <h6>Squid Tempura</h6>
+          <h6>Fried Soft Shell Crab</h6>
+          <h6>Fried Sweet Prawn</h6>
+          <h6 id="h6-small">(Two whole (head included) fried sweet prawns)</h6>
+          <h6>Chicken Katsu</h6>
+          <h6 id="h6-small">(Deep Fried Japanese Style Breaded Chicken)</h6>
+          <h6>Tonkatsu</h6>
+          <h6 id="h6-small">(Deep Fried Japanese Style Breaded Pork)</h6>
+          <h6>Tofu Steak</h6>
+          <h6 id="h6-small">(Tofu blocks and slaw served on a sizzling plate)</h6>
+          <h6>Gyoza</h6>
+          <h6 id="h6-small">(Five pan-fried shrimp dumplings)</h6>
+          <h6>Yakitori</h6>
+          <h6 id="h6-small">(Two skewers of marinated chicken)</h6>
+          <h6>Beef Yakitori</h6>
+          <h6 id="h6-small">(Two skewers of marinated Beef)</h6>
+          <h6>Hamachi Kama</h6>
+          <h6 id="h6-small">(Grilled cheek of yellowtail)</h6>
+          <h6>Beef Negimaki</h6>
+          <h6 id="h6-small">(Thinly sliced beef rolled around green onion)</h6>
+          <h6>Spring Rolls</h6>
+          <h6 id="h6-small">(Four pork spring rolls.)</h6>
+          <h6>BBQ Squid</h6>
+          <h6>Age Dashi Tofu</h6>
+          <h6 id="h6-small">(Deep fried tofu blocks with tempura sauce)</h6>
+          <h6>Fried Mixed Vegetables</h6>
+          <h6>Chicken Teriyaki</h6>
+          <h6>Beef Teriyaki</h6>
+          <h6>Pork Teriyaki</h6>
+          <h6>Salmon Teriyaki</h6>
+          <h6>Saba Shioyaki</h6>
+          <h6 id="h6-small">(Grilled Mackerel)</h6>
+          <h6>Hiyayakko</h6>
+          <h6 id="h6-small">(Cold tofu w. tempura sauce & Bonito)</h6>
+          <h6>Oshinko</h6>
+          <h6 id="h6-small">(Japanese Pickles)</h6>
+          <h6>Gomae</h6>
+          <h6 id="h6-small">(Rolled Spinach w. toasted sesame seeds)</h6>
+          <h6>Shrimp Shumai</h6>
+          <h6 id="h6-small">(8 pcs Deep Fried Shrimp Dumpling)</h6>
+          <h6>White Fish Tempura</h6>
+          <h6>Crawfish Quesadilla</h6>
+          <h6>Crab Ragoon</h6>
+        </div>
+      </div>
+    </div></section>
+  </div>
+  
+ 
+  
+    
+
+    <script src="main2.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
 </html>
