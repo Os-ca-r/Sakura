@@ -51,30 +51,56 @@
     </section>
     <div class="container cater-body">
       <div class="row">
-        <div class="col-4">
+        <div class="col-md-4">
           <div class="cater-left">
             <h2>Options</h2>
             <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+
               <label class="form-check-label">
-                Default radio
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                Dine-In
               </label>
-              
-              
             </div>
-            
-            <span class="form-check">
-              Second default radio
+            <div class="form-check">                
               <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
               <label class="form-check-label">
+                Take out
               </label>
-            </span>
+            </div>
+            <div class="form-check">                
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+              <label class="form-check-label">
+                Delivery 
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-5">
+          <div class="cater-right">
+            <form>
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="First name" required>
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Last name">
+                </div>
+              </div>
+              <input class="form-control" placeholder="Phone Number">
+              <input type="email" class="form-control" placeholder="Email">
+              <input type="date" id="date" required>
+              <br>
+              <input type="number" id="number" placeholder="Number of Guests"required>
+            </div>
+            </form>
           </div>
         </div>
       </div>
       
     </div>
   </section>
+  
   <!-- left section and right section
   left=options for dine in etc
 right= forms -->

@@ -391,13 +391,26 @@ iframe {
     font-size:40px;
 }
 .form-check {
-    position:Flex
+    border-bottom: rgb(162, 145, 145) solid 2px;
+    height: 150px;
+    margin-top:3vw;
+    /* margin-bottom:auto; */
 }
-.cater-left {
+.cater-left, .cater-right {
     background-color:#8B1F1F;
+    /* opacity:.9; */
     border-radius:10px;
     color:white;
-    text-align:center
+    text-align:center;
+    padding:20px;
+}
+.cater-left label {
+    font-size:3vw;
+    font-size:40px
+}
+.cater-left input {
+    font-size:20px;
+    margin-top:1.7vw
 }
 .cater-body h2 {
     border-bottom:black 2px solid;
