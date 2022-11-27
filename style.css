@@ -375,7 +375,33 @@ iframe {
     
 }
 /* catering */
-
+.catering {
+    background-image: url(image/catering-bg1.jpg);
+    background-repeat:no-repeat;
+    background-size: 2000px;
+    height:1000px;
+    filter: blur(px);
+    background-position:center;
+    
+}
+#cater-header {
+    margin-top:4vw;
+    text-align: center;
+    color:white;
+    font-size:40px;
+}
+.form-check {
+    position:Flex
+}
+.cater-left {
+    background-color:#8B1F1F;
+    border-radius:10px;
+    color:white;
+    text-align:center
+}
+.cater-body h2 {
+    border-bottom:black 2px solid;
+}
 /* footer */
  .footer{
     background-color:rgba(139, 31, 31, 1);
