@@ -155,7 +155,12 @@
 .menu-content {
     background-color: black;
     position:absolute;
-    width:100%
+    width:100%;
+
+}
+.menu-items {
+    overflow:auto;
+
 }
 #first-half {
     border-right:1px solid white;
@@ -212,7 +217,7 @@
     margin-left:150px;
 }
 .hibachi {
-    font-size:15px;
+    font-size:   15px;
     text-align: center;
 }
 .lunch h5 {
@@ -226,6 +231,19 @@
 }
 #h6-small {
     font-size:smaller
+}
+.menu button {
+width:12.5%
+}
+@media screen and (max-width:1150px) {
+    .menu button {
+        width:25%
+    }
+}
+@media screen and (max-width:580px) {
+    .menu button {
+        width:50%
+    }
 }
  
 
@@ -358,7 +376,7 @@ color:white;
 }
 #contactbody{
     background-color:black;
-    font-family:'Bebas Neue'
+    
 }
 .contact-top{
     color:white;
@@ -392,6 +410,28 @@ iframe {
     
 }
 /* catering */
+#catering-tabs{
+    border-top:3px solid black;
+    border-bottom:3px solid black;
+    border-left:3px solid white;
+    border-right:3px solid white;
+    height:50px;
+    border-radius:2px;
+}
+.cater-link{
+    background-color:#8B1F1F;
+    color:white;
+    margin-top:-10px;
+    border-top:3px solid #311313;
+    border-left:3px solid #311313;
+    border-right:3px solid #311313;
+    border-bottom:3px solid #311313;
+    border-color:#311313;
+    height:55px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
 .catering {
     background-image: url(image/catering-bg1.jpg);
     background-repeat:no-repeat;
@@ -448,7 +488,8 @@ iframe {
     border:none;
 }
 .cater-body h2 {
-    border-bottom:black 2px solid;
+    border-bottom:black 2px solid; 
+    
 }
 .comments {
     height:200px
@@ -479,6 +520,9 @@ iframe {
     color:green
 }
 #font{
-   
+    font-family: "Bebas Neue", "Courier New", monospace;
+}
+.font{
+    font-family: "Bebas Neue", "Courier New", monospace;
 }
  
