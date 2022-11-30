@@ -1,14 +1,14 @@
-<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+  <doctype html>
+  <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sakura</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
     </head>
-  <body>
+  <body  id="font">
     <nav class="navbar navbar-expand-lg  sticky-top">
       <div class="container-fluid">
           <div class="navbar-header">
@@ -48,35 +48,15 @@
           <div class="col-md-12">
         <h4 id="cater-header">Catering Options</h4>
       </div>
+      <div id="catering-tabs" class="nav cater-tabs menu">
+        <button class="cater-link active"  data-bs-toggle="tab" data-bs-target="#sushi" >Dine In</button>
+        <button class="cater-link"  data-bs-toggle="tab" data-bs-target="#lunch-specials"  >Take out</button>
+        <button class="cater-link"  data-bs-toggle="tab" data-bs-target="#chinese">Delivery</button>
+      </div>
     </section>
     <div class="container cater-body">
       <div class="row">
-        <div class="col-md-4">
-          <div class="cater-left">
-            <h2>Options</h2>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
-
-              <label class="form-check-label">
-                Dine-In
-              </label>
-            </div>
-            <div class="form-check">                
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-              <label class="form-check-label">
-                Take out
-              </label>
-            </div>
-            <div class="form-check">                
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-              <label class="form-check-label">
-                Delivery 
-              </label>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-2"></div>
-        <div class="col-md-5">
+        <div class="col-md-12">
           <div class="cater-right">
             <form>
               <div class="row">
@@ -88,10 +68,11 @@
                 </div>
               </div>
               <input class="form-control" placeholder="Phone Number">
-              <input type="email" class="form-control" placeholder="Email">
-              <input type="date" id="date" required>
-              <br>
-              <input type="number" id="number" placeholder="Number of Guests"required>
+              <input class="form-control" type="email" class="form-control" placeholder="Email">
+              <input class="form-control" type="date" id="date" placeholder="Time" required>
+              
+              <input class="form-control" type="number" id="number" placeholder="Number of Guests"required>
+              <textarea class="form-control comments" aria-label="With textarea" placeholder="Comments"></textarea>
             </div>
             </form>
           </div>
@@ -100,7 +81,71 @@
       
     </div>
   </section>
-  
+  <section>
+    <footer class="text-center text-lg-start bg-light text-muted">
+     
+      <section class="footer">
+        <div class="container-fluid text-center text-md-start">
+          <div class="row">
+            <div class="col-md-3 col-lg-3 col-xl-1 mx-auto mb-1">
+              <br>
+              <p>
+                <img src="image/footer.png" width="100" height="100" alt="Sakura">
+              </p>
+            </div>
+            <div class="col-md-3 col-lg-2col-xl-2 mx-auto mb-1 text-center border-left">
+              <br>
+              <h6 class="text-uppercase fw-bold mb-2">
+                <a href="contact.html" id="link">Contact Us!</a>
+              </h6>
+              <p id="footerbody">
+                <class="text-reset">(731) 664-2878</a>
+              <br>
+                <class="text-reset">Sakurajackson@yahoo.com</a>
+              </p>
+              <p>
+                <class="text-reset"></a>
+              </p>
+            </div>
+           
+            
+            <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mb-1 text-center border-left">
+              <br>
+              <h6 class="text-uppercase fw-bold mb-2">
+                <a href="about.html" id="link">Socials</a>
+              </h6>
+              <p id="footerbody">
+                <class="text-reset">@sakura Japanese Resturant on facebook</a>
+    
+            </div>
+            
+    
+            
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 text-center border-left">
+              
+              <br>
+              <h6 class="text-uppercase fw-bold mb-2"><a href="menu.html" id="link">Dine in!</a></h6>
+              <p id="footerbody"><i class="fas fa-home me-3"></i> 70 Carriage House Dr 
+              <br>
+                Jackson, TN 38305
+                
+              </p>
+            </div>
+            
+          </div>
+          
+        </div>
+      </section>
+      
+    
+      
+      <div class="text-center p-2" style="background-color: rgba(139, 31, 31, 1); color:white;">
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+      
+    </footer>
+  </section>
   <!-- left section and right section
   left=options for dine in etc
 right= forms -->

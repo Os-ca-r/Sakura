@@ -26,7 +26,21 @@
     height:100%;
     background-position: top;
 }
-
+#thebest{
+    background: rgba(139, 31, 31, 1);
+    border-radius: 25px;
+    margin:auto ;
+    margin-top:100px;
+    margin-bottom:75px;
+    width: 500px;
+    height: 75px;
+    display: flex;
+    justify-content: justify;
+    align-items: center;
+    font-size: 25px;
+    opacity: 80%;
+    color:white;
+}
 .options {
     margin-top:6rem;
     color:white;
@@ -133,13 +147,20 @@
 .nav-tabs {
     border:none;
 }
+
 .menu {
     background-color: #8B1F1F;
+    
 }
 .menu-content {
     background-color: black;
     position:absolute;
-    width:100%
+    width:100%;
+
+}
+.menu-items {
+    overflow:auto;
+
 }
 #first-half {
     border-right:1px solid white;
@@ -196,7 +217,7 @@
     margin-left:150px;
 }
 .hibachi {
-    font-size:15px;
+    font-size:   15px;
     text-align: center;
 }
 .lunch h5 {
@@ -210,6 +231,19 @@
 }
 #h6-small {
     font-size:smaller
+}
+.menu button {
+width:12.5%
+}
+@media screen and (max-width:1150px) {
+    .menu button {
+        width:25%
+    }
+}
+@media screen and (max-width:580px) {
+    .menu button {
+        width:50%
+    }
 }
  
 
@@ -227,7 +261,7 @@
 }
 /* about */
 #about-top{
-    background-image: url(image/aboutheader.png);
+    background-image: url(image/aboutheader1.png);
     width: 100%;
     height: 100%;
     color:white;
@@ -266,7 +300,7 @@
     align-items: center;
     font-size: 25px;
     opacity: 80%;
-    color:black;
+    color:white;
 }
 .about-middle-row1{
 margin-top:50px;
@@ -342,6 +376,7 @@ color:white;
 }
 #contactbody{
     background-color:black;
+    
 }
 .contact-top{
     color:white;
@@ -375,6 +410,28 @@ iframe {
     
 }
 /* catering */
+#catering-tabs{
+    border-top:3px solid black;
+    border-bottom:3px solid black;
+    border-left:3px solid white;
+    border-right:3px solid white;
+    height:50px;
+    border-radius:2px;
+}
+.cater-link{
+    background-color:#8B1F1F;
+    color:white;
+    margin-top:-10px;
+    border-top:3px solid #311313;
+    border-left:3px solid #311313;
+    border-right:3px solid #311313;
+    border-bottom:3px solid #311313;
+    border-color:#311313;
+    height:55px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
 .catering {
     background-image: url(image/catering-bg1.jpg);
     background-repeat:no-repeat;
@@ -390,11 +447,23 @@ iframe {
     color:white;
     font-size:40px;
 }
-.form-check {
+.form-check, textarea {
     border-bottom: rgb(162, 145, 145) solid 2px;
     height: 150px;
     margin-top:3vw;
     /* margin-bottom:auto; */
+}
+.form-control {
+    color:#8B1F1F;
+}
+.cater-right input:focus, .cater-right textarea:focus {
+  box-shadow:none;
+  color:white;
+  background-color: black;
+} 
+
+.form-control::placeholder {
+    color:#8B1F1F
 }
 .cater-left, .cater-right {
     background-color:#8B1F1F;
@@ -412,8 +481,18 @@ iframe {
     font-size:20px;
     margin-top:1.7vw
 }
+.cater-right input, .cater-right textarea {
+    margin-top:10px;
+    width:100%;
+    background-color: black;
+    border:none;
+}
 .cater-body h2 {
-    border-bottom:black 2px solid;
+    border-bottom:black 2px solid; 
+    
+}
+.comments {
+    height:200px
 }
 /* footer */
  .footer{
@@ -440,5 +519,10 @@ iframe {
     height:2000px;
     color:green
 }
-  
+#font{
+    font-family: "Bebas Neue", "Courier New", monospace;
+}
+.font{
+    font-family: "Bebas Neue", "Courier New", monospace;
+}
  
