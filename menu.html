@@ -52,22 +52,25 @@
     </div>
     <section>
     <div id="menu-tabs" class="nav nav-tabs menu">
-      <button class="nav-link active"  data-bs-toggle="tab" data-bs-target="#sushi" >Sushi</button>
-      <button class="nav-link"  data-bs-toggle="tab" data-bs-target="#lunch-specials"  >Lunch Specials</button>
+      <button class="nav-link active"  data-bs-toggle="tab" data-bs-target="#sushi" > Sushi</button>
+      <button class="nav-link"  data-bs-toggle="tab" data-bs-target="#lunch-specials"  ><span id="lunch">Lunch Specials</span></button>
       <button class="nav-link"  data-bs-toggle="tab" data-bs-target="#chinese">Chinese</button>
       <button class="nav-link"  data-bs-toggle="tab" data-bs-target="#hibachi"  >Hibachi</button>
       <button class="nav-link"  data-bs-toggle="tab" data-bs-target="#kids"  >Kids Menu</button>
-      <button class="nav-link"  data-bs-toggle="tab" data-bs-target="#soupSalad"  >Soups & Salad</button>
+      <button class="nav-link"  data-bs-toggle="tab" data-bs-target="#soupSalad"  ><span id="soup">Soups & Salad</span></button>
       <button class="nav-link"  data-bs-toggle="tab" data-bs-target="#donburi"  >Donburi</button>
       <button class="nav-link"  data-bs-toggle="tab" data-bs-target="#appetizers"  >Appetizers</button>
     </div>
   </section>
   </nav>
   <div class="tab-content menu-content " id="nav-tabContent">
-    <div class="tab-pane fade show active" id="sushi" >
+    <div class="tab-pane fade show active " id="sushi" >
       <section class="menu-items ">
+        <!--SUSHI-->
         <div class="container sushi">
+          <!--SUSHI & SASHIMI-->
         <div class="row">
+          <!--SUSHI-->
           <div class="col-md-6 formHolder"id="first-half">
             <h3 class="text-center mt-2">Sushi</h3>
           <h5 id="orderBeef">Beef Tataki</h5><li> Thinly sliced beef served with fish eggs, chives, oroshi, sriracha, wasabi, and ponzu sauce.</li>
@@ -91,7 +94,9 @@
             <br>
           <h5>20 Piece Special</h5><li>20 pieces of any sushi.</li>
             </div>
-          <div class="col-md-6" id="second-half"><h3 class="text-center mt-2">Sashimi 
+            <!--SASHAMI-->
+          <div class="col-md-6" id="second-half">
+            <h3 class="text-center mt-2">Sashimi 
             <br><h6 class="text-center">(8-9 pieces of each kind)</h6>
           </h3>
             <h5>BBQ Eel</h5>
@@ -125,13 +130,14 @@
             <h5>Sashimi (assorted)</h5><li>(18pcs) (26pcs) (34pcs)</li>
           </div>
         </div>
-      </div></section>
+      </div>
+    </section>
     </div>
     </div>
-    <div class="tab-pane fade menu-content" id="lunch-specials"  style="overflow:auto">
+    <div class="tab-pane fade menu-content" id="lunch-specials">
       <section class="menu-items lunch">
         <div class="container">
-        <div class="row">
+        <div class="row" >
           <div class="col-md-6 "id="first-half">
             <h3 class="text-center mt-2">Teriyaki</h3>
           <h5>Chicken Teriyaki</h5>
@@ -377,7 +383,7 @@
     </div></section>
   </div>
   <div class="tab-pane fade menu-content" id="donburi">
-    <section class=" menu-items donburi-menu">
+    <section class="menu-items donburi-menu">
       <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -404,8 +410,9 @@
       </div>
     </div></section>
   </div>
+  <!--APPETIZERS-->
   <div class="tab-pane fade menu-content" id="appetizers">
-    <section class=" menu-items appetizers-menu">
+    <section class="menu-items appetizers-menu">
       <div class="container">
       <div class="row">
         <div class="col-md-12">

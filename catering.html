@@ -40,47 +40,52 @@
           </div>
       </div>
   </nav>
-  
-  <section class="catering">
-    <section>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-12">
-        <h4 id="cater-header">Catering Options</h4>
-      </div>
-      <div id="catering-tabs" class="nav cater-tabs menu">
-        <button class="cater-link active"  data-bs-toggle="tab" data-bs-target="#sushi" >Dine In</button>
-        <button class="cater-link"  data-bs-toggle="tab" data-bs-target="#lunch-specials"  >Take out</button>
-        <button class="cater-link"  data-bs-toggle="tab" data-bs-target="#chinese">Delivery</button>
-      </div>
-    </section>
-    <div class="container cater-body">
+ 
+<div class="catering"> 
+
+    <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
-          <div class="cater-right">
-            <form>
-              <div class="row">
-                <div class="col">
-                  <input type="text" class="form-control" placeholder="First name" required>
+          <h4 id="cater-header">Catering Options</h4>
+        </div>
+        <div id="catering-tabs" class="nav cater-tabs menu">
+          <button class="cater-link active" data-bs-toggle="tab" data-bs-target="#dineIn" >Dine In</button>
+          <button class="cater-link"  data-bs-toggle="tab" data-bs-target="#lunch-specials"  >Take out</button>
+          <button class="cater-link"  data-bs-toggle="tab" data-bs-target="#chinese">Delivery</button>
+        </div>
+    </div>
+  </div>
+
+
+  <div class="tab-content menu-content " id="nav-tabContent">
+    <div class="tab-pane fade show active" id="dineIn" >
+      <div class="container cater-body">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="cater-right">
+              <form>
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="First name" required>
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name">
+                  </div>
                 </div>
-                <div class="col">
-                  <input type="text" class="form-control" placeholder="Last name">
-                </div>
+                <input class="form-control" placeholder="Phone Number">
+                <input class="form-control" type="email" class="form-control" placeholder="Email">
+                <input class="form-control" type="date" id="date" placeholder="Time" required>
+                
+                <input class="form-control" type="number" id="number" placeholder="Number of Guests"required>
+                <textarea class="form-control comments" aria-label="With textarea" placeholder="Comments"></textarea>
               </div>
-              <input class="form-control" placeholder="Phone Number">
-              <input class="form-control" type="email" class="form-control" placeholder="Email">
-              <input class="form-control" type="date" id="date" placeholder="Time" required>
-              
-              <input class="form-control" type="number" id="number" placeholder="Number of Guests"required>
-              <textarea class="form-control comments" aria-label="With textarea" placeholder="Comments"></textarea>
+              </form>
             </div>
-            </form>
           </div>
         </div>
-      </div>
-      
     </div>
-  </section>
+  </div>
+</div>
   <section>
     <footer class="text-center text-lg-start bg-light text-muted">
      
