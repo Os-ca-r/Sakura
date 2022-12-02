@@ -308,7 +308,7 @@ width:12.5%
     align-items: center;
     font-size: 25px;
     opacity: 80%;
-    color:white;
+    color:rgb(255, 255, 255);
 }
 .about-middle-row1{
 margin-top:50px;
@@ -321,7 +321,14 @@ font-size:20px;
 .about-middle-row2{
 margin-top:25px;
 margin-bottom:25px;
-color:white;
+color:rgb(187, 132, 132);
+
+}
+#about-links{
+    color:white;
+}
+#about-links:hover{
+    color: brown;
 }
 .aboutbg {
     background: linear-gradient(0deg, rgb(26, 26, 33), rgba(38, 33, 33, .7));
@@ -348,30 +355,67 @@ color:white;
 .payments img {
     width:10rem;
     margin-top:-20px;
-    max-width: 100%;
-    height: auto;
+    max-width: 10vw;
+    height: 5vw;
     
+}
+#cash-img{
+    margin-top: auto;
 }
 .payments {
     text-align: center;
 }
 .payments h4 {
     text-align: center;
-    font-size:2vw
+    font-size:2vw;
 }
 
 #discover-card {
     width:6rem
 }
+.visa-margin{
+    margin-right: .510rem;
+}
+#pic-visa{
+margin-top:auto;
+}
+#master-card{
+    font-size: 1.5vw;
+    width: 12vw;
+}
+#master-card-img{
+    margin-top: auto;
+    height: auto;
+}
+#dis-img{
+    margin-top: auto;
+}
 .payments-border {
     border-right:black solid 3px;
+    margin-left: auto;
 }
-
-
+#pic-ame{
+    margin: auto;
+}
+#ame{
+    font-size: 1.87vw;
+}
 #pic-visa, #pic-ame{
     height:auto;
     width:125px;
 }
+
+.card-row{
+    margin-top: 25px;
+}
+.hide {
+    display: none;
+  }
+      
+  .myDIV:hover + .hide {
+    display: block;
+    color: burlywood;
+  }
 /* contact */
 .iframe{
     text-align: center;
@@ -415,21 +459,28 @@ iframe {
 }
 /* catering */
 #catering-tabs{
-    border-top:3px solid black;
-    border-bottom:3px solid black;
-    border-left:3px solid white;
-    border-right:3px solid white;
+    
     height:50px;
     border-radius:2px;
 }
-.cater-link{
+.cater .cater-link {
+    
+    
+    height:100%;
+    
+    white-space: nowrap;
+    text-overflow: clip;
+    background-color: #8B1F1F;
+      
+}
+.cater .cater-link.active {
     background-color:#8B1F1F;
-    color:white;
-    margin-top:-10px;
+    
+    margin-top:-4px;
     border-top:3px solid #311313;
     border-left:3px solid #311313;
     border-right:3px solid #311313;
-    border-bottom:3px solid #311313;
+    
     border-color:#311313;
     height:55px;
     border-top-left-radius: 10px;
@@ -443,13 +494,31 @@ iframe {
     height:1000px;
     filter: blur(px);
     background-position:center;
+}
+.cater {
+    margin-left:64px
     
+}
+.cater-body {
+  /* margin-top:20px */
+
+}
+.cater-content {
+    
+    position:absolute;
+    width:100%;
+}
+.catering button {
+    border:none
 }
 #cater-header {
     margin-top:4vw;
     text-align: center;
     color:white;
     font-size:40px;
+}
+.a {
+    margin-top:700px;
 }
 .form-check, textarea {
     border-bottom: rgb(162, 145, 145) solid 2px;
