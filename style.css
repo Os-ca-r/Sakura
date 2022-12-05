@@ -158,7 +158,21 @@
     width:100%;
 
 }
-
+@media screen and (max-width:1231px) {
+    .menu-items {
+    
+        height:1400px
+    }
+}
+@media screen and (max-width:580px) {
+    .menu button {
+        width:50%
+    }
+}
+.menu-items {
+    
+    height:1100px
+}
 #first-half {
     border-right:1px solid white;
     margin-top:10px;
@@ -249,21 +263,6 @@ width:12.5%
         width:50%
     }
 }
-@media screen and (max-width:1231px) {
-    .menu-items {
-    
-        height:1400px
-    }
-}
-@media screen and (max-width:580px) {
-    .menu button {
-        width:50%
-    }
-}
-.menu-items {
-    
-    height:1100px
-}
  
 
 /* order */
@@ -280,13 +279,13 @@ width:12.5%
 }
 /* about */
 #about-top{
-    background-image: url(image/about-header1.jpg);
+    background-image: url(image/aboutheader1.jpg);
     width: 100%;
     height: 100%;
     color:white;
     background-repeat: no-repeat;
     background-size:2000px;
-    background-position: center;
+    background-position: top;
 }
 #about-us-mid{
     background-image:url(image/aboutmiddleimage.png);
@@ -607,6 +606,9 @@ height:vw;
 .font{
     font-family: "Bebas Neue", "Courier New", monospace;
 }
+ 
+
+
 /* index1 */
 /* .color {
     background-color:black;
