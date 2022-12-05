@@ -475,7 +475,7 @@ iframe {
 }
 .cater .cater-link {
     
-    
+    margin-left:5vw;
     height:100%;
     
     white-space: nowrap;
@@ -506,7 +506,7 @@ iframe {
     background-position:center;
 }
 .cater {
-    margin-left:64px
+   
     
 }
 .cater-body {
@@ -609,8 +609,8 @@ height:vw;
  
 
 
-/* index1 */
-/* .color {
+ index1 
+.color {
     background-color:black;
 }
 .navbar-brand {
@@ -620,13 +620,15 @@ height:vw;
     background-color: black;
     color:white;
     height:500px;
-      
+    opacity:50%;
 }
+
 #sakura {
     margin-top:8vw;
     text-align: center;
     animation: introduction 3s;
-    font-size:75px
+    font-size:75px;
+    opacity: 100%;
 }
 @keyframes introduction {
     0% { opacity: 0;
@@ -652,15 +654,18 @@ height:vw;
     margin-top: 80px;
     padding:30px;
     width:3000px;
-    padding-left:-20px
+    padding-left:-20px;
 }  
+#img-home{
+    opacity: 100%;
+}
   .i {
     max-width: 100%;
     height: auto;
   }
   
   .image {
-    flex-basis: 40%
+    flex-basis: 40%;
   }
   
   .text {
@@ -691,4 +696,4 @@ height:vw;
     width:100px;
     padding-bottom:25px;
 
-  } */
+  }

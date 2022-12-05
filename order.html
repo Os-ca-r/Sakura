@@ -65,6 +65,17 @@
     <li> Thinly sliced beef served with fish eggs, chives, oroshi, sriracha, wasabi, and ponzu sauce.</li>
           <button type="button" id="" class="btn-primary addBtn">Add Item</button>
 </div>
+<form>
+
+  <select>
+  <option> ---Choose tutorial--- </option>
+  <option> w3schools </option>
+  <option> Javatpoint </option>
+  <option> tutorialspoint </option>
+  <option> geeksforgeeks </option>
+  </select>
+ 
+  </form>
   <section class="test">
     <section class="container content-section test">
       <h2 class="section-header">CART</h2>
@@ -76,7 +87,38 @@
       <div class="cart-items">
         <div class="cart-row">test</div>
       </div>
+   <select id = "list">
+      <option>French</option>
+      <option>English</option>
+      <option>
+        <select id = "list">
+              <option>French</option>
+              <option>English</option>
+              <option>Español</option>
+     </select></option>
+      
+   </select>
+   
   </section>
+<!--  
+  https://stackoverflow.com/questions/17001961/how-to-add-drop-down-list-select-programmatically -->
+
+   <script>
+      var a, i, options;
+      a = document.getElementById("list");
+      options = "";
+      for (i = 0; i < a.length; i++) {
+         options = options + "<br> " + a.options[i].text;
+      }
+   
+   </script>
+<script>
+ 
+  </script>
+  
+  
+  
+
 
 
   </section>
