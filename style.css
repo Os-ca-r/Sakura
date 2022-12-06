@@ -472,10 +472,11 @@ iframe {
     
     height:50px;
     border-radius:2px;
+    margin-left:10vw;
 }
 .cater .cater-link {
     
-    margin-left:5vw;
+    
     height:100%;
     
     white-space: nowrap;
@@ -504,10 +505,6 @@ iframe {
     height:1000px;
     filter: blur(px);
     background-position:center;
-}
-.cater {
-   
-    
 }
 .cater-body {
   /* margin-top:20px */
