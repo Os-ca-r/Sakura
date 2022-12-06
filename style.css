@@ -16,6 +16,21 @@
 .nav-link:hover{
     color:pink
 }
+#backtoTop{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
 /* home */
 .image {
     background-image:url(image/homeimage.png);
@@ -472,7 +487,7 @@ iframe {
     
     height:50px;
     border-radius:2px;
-    margin-left:10vw;
+    margin-left:1.5vw;
 }
 .cater .cater-link {
     
@@ -639,8 +654,6 @@ height:vw;
     background-repeat:no-repeat;
     background-position: center;
     background-attachment: fixed;
-    height:1000px;
-    
 }
 .all {
     display: flex;
