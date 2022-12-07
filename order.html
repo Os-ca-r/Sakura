@@ -50,7 +50,7 @@
       
 
   <div class="container">
-      <div id="Items">
+      <div id="orderItems">
     <select id="Menu" >
       <optgroup label="Sushi">
       <option>Option</option>
@@ -64,57 +64,7 @@
   
   <button  type="button" onclick="cloneSelect()">Add More!</button>
 
-  
-  
-   
-   
-  </section>
-<!--  
-  https://stackoverflow.com/questions/17001961/how-to-add-drop-down-list-select-programmatically -->
 
-   <script>
-    var selectionCounter = 0
-function cloneSelect() {
-  var select = document.getElementById("Menu")
-  var clone = select.cloneNode(true)
-  var name = select.getAttribute("name") + selectionCounter++
-  
-  document.getElementById("Items").appendChild(clone)
-}
-/* 
-1. show / hide button 
----------------------
-*/
-// create variables
-
-// const divList = document.querySelector('.listHolder');
-
-// const addInput = document.querySelector('#addInput');
-// const addBtn = document.querySelector('#addBtn');
-
-// function addLists() {
-  
-//     const ul = divList.querySelector('ul');
-//     const li = document.createElement('select');
-    
-//     ul.appendChild(li); 
-    
-  
-// }
-
-// // add list when clicked on add item button
-// addBtn.addEventListener('click', () => {
-//   addLists();
-// });
-
-// loop to add buttons in each li
-
-
-   </script>
-<script>
- 
-  </script>
-  
   
   
 
@@ -189,7 +139,7 @@ function cloneSelect() {
     </div>
     
   </footer>
-  <script src="main2.js"></script>
+  <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
 </html>

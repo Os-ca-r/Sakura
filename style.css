@@ -374,12 +374,12 @@ color:rgb(187, 132, 132);
     margin-left:20px;
     margin-right:20px;
     background-color:#8B1F1F;
-    height:200px;
     margin-top:20px;
     border-radius:30px;
     align-content: center;
     color:white;
     text-size-adjust:auto;
+    margin-bottom: 3vw;
 }
 .payments img {
     width:10rem;
@@ -491,7 +491,7 @@ iframe {
     
     height:50px;
     border-radius:2px;
-    margin-left:1.5vw;
+    margin-left:.90vw;
 }
 .cater .cater-link {
     
@@ -567,11 +567,12 @@ iframe {
 .cater-right {
     background-color:#8B1F1F;
     /* opacity:.9; */
-    border-radius:10px;
+    border-radius:0px 10px 10px 10px;
     color:white;
     text-align:center;
     padding:20px;
-    margin
+    outline: #1f1f1f;
+    outline-style: solid;
 }
 #pic-awe{
 height:vw;
@@ -625,7 +626,7 @@ height:vw;
  
 
 
- index1 
+ /* index1  */
 .color {
     background-color:black;
 }
@@ -653,7 +654,7 @@ height:vw;
         transform: translateY(0);}
 }
 .index-content {
-    background-image:url(image/homeimage.png);
+    
     background-size:4000px;
     background-repeat:no-repeat;
     background-position: center;
@@ -667,26 +668,31 @@ height:vw;
     color:white;
     margin-top: 80px;
     padding:5vw;
-    width:100vw;
+    width:80%;
+    height: 10%;
     
 }  
 #img-home, #img-home-2{
     opacity: 100%;
     
 }
+.body-background-1{
+    background-image:url(image/homeimage.png);
+}
+
 #img-home{
-    width: 20vw;
-    height: 10vw;
+    width: 100%;
+    height: 100%;
 }
 #img-background{
-    background-image: none;
+    margin-bottom: 5vw;
 }
 #img-home-2{
-    padding-left: 1vw;
     background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
   .i {
-    max-width: 100%;
     height: auto;
   }
   
@@ -711,7 +717,6 @@ height:vw;
     height:10px;
     width:100px;
     padding-bottom:25px;
-    margin-left:10vw
   }
 .button-2 {
     background-color:#8B1F1F;
@@ -722,5 +727,6 @@ height:vw;
     width:100px;
     padding-bottom:25px;
     margin-right: 10vw;
+    margin-bottom: 2vw;
   }
   
