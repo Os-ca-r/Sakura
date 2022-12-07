@@ -47,70 +47,69 @@
           <h2 class="">Order here!</h2>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-3">
-          <form>
-            <input class="form-control">
-          </form>
-        </div>
-        <div class="col-md-2"></div>
-        <div class="col-md-3"></div>
-        <div class="col-md-2"></div>
-      </div>
-    </div>
-  </section>
-  <div class="shopItem">  
-    <h5 class="shop-item-title">Beef Tataki</h5>
-    <li> Thinly sliced beef served with fish eggs, chives, oroshi, sriracha, wasabi, and ponzu sauce.</li>
-          <button type="button" id="" class="btn-primary addBtn">Add Item</button>
-</div>
-<form>
-
-  <select>
-  <option> ---Choose tutorial--- </option>
-  <option> w3schools </option>
-  <option> Javatpoint </option>
-  <option> tutorialspoint </option>
-  <option> geeksforgeeks </option>
-  </select>
- 
-  </form>
-  <section class="test">
-    <section class="container content-section test">
-      <h2 class="section-header">CART</h2>
-      <div class="cart-row">
-          <span class="cart-item cart-header cart-column">ITEM</span>
-          <span class="cart-price cart-header cart-column">PRICE</span>
-          <span class="cart-quantity cart-header cart-column">QUANTITY</span>
-      </div>
-      <div class="cart-items">
-        <div class="cart-row">test</div>
-      </div>
-   <select id = "list">
-      <option>French</option>
-      <option>English</option>
-      <option>
-        <select id = "list">
-              <option>French</option>
-              <option>English</option>
-              <option>Español</option>
-     </select></option>
       
-   </select>
+
+  <div class="container">
+      <div id="Items">
+    <select id="Menu" >
+      <optgroup label="Sushi">
+      <option>Option</option>
+
+    </optgroup>
+
+    </select>
+  </div>
+  </div>
+
+  
+  <button  type="button" onclick="cloneSelect()">Add More!</button>
+
+  
+  
+   
    
   </section>
 <!--  
   https://stackoverflow.com/questions/17001961/how-to-add-drop-down-list-select-programmatically -->
 
    <script>
-      var a, i, options;
-      a = document.getElementById("list");
-      options = "";
-      for (i = 0; i < a.length; i++) {
-         options = options + "<br> " + a.options[i].text;
-      }
-   
+    var selectionCounter = 0
+function cloneSelect() {
+  var select = document.getElementById("Menu")
+  var clone = select.cloneNode(true)
+  var name = select.getAttribute("name") + selectionCounter++
+  
+  document.getElementById("Items").appendChild(clone)
+}
+/* 
+1. show / hide button 
+---------------------
+*/
+// create variables
+
+// const divList = document.querySelector('.listHolder');
+
+// const addInput = document.querySelector('#addInput');
+// const addBtn = document.querySelector('#addBtn');
+
+// function addLists() {
+  
+//     const ul = divList.querySelector('ul');
+//     const li = document.createElement('select');
+    
+//     ul.appendChild(li); 
+    
+  
+// }
+
+// // add list when clicked on add item button
+// addBtn.addEventListener('click', () => {
+//   addLists();
+// });
+
+// loop to add buttons in each li
+
+
    </script>
 <script>
  
