@@ -16,25 +16,30 @@
 .nav-link:hover{
     color:pink
 }
-#myBtn {
-    display: none; 
+#backtotop{
+    display: flex; 
     position: fixed; 
     bottom: 20px; 
     right: 30px; 
     z-index: 99; 
     border: none; 
-    outline: none; 
-    background-color: red; 
+    outline: solid; 
+    outline-color: black;
+    background-color:#311313; 
     color: white; 
     cursor: pointer; 
     padding: 15px; 
-    border-radius: 10px; 
-    font-size: 18px; 
-  }
+    border-radius: 50%; 
+    font-size:15px;
+    display: inline-block;
+    height:50px;
+    width:50px;
+    vertical-align:middle;
+}
   
-  #myBtn:hover {
-    background-color: #555; 
-  }
+#backtotop:hover {
+    background-color: #1f1f1f; 
+}
 /* home */
 .image {
     background-image:url(image/homeimage.png);
@@ -525,7 +530,7 @@ iframe {
     filter: blur(px);
     background-position:center;
 }
-.cater-body {
+.cater-body{
   /* margin-top:20px */
 
 }
