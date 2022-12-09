@@ -21,16 +21,20 @@ function topFunction() {
 
 
 //orderpage
-var br = document.createElement("row")
+
+
 var selectionCounter = 0
 function cloneSelect() {
-var select = document.getElementById("Menu")
-var clone = select.cloneNode(true)
-var name = select.getAttribute("name") + selectionCounter++
+  var br = document.createElement("br")
+  var select = document.getElementById("Menu")
+  var clone = select.cloneNode(true)
+  var name = select.getAttribute("name") + selectionCounter++
 
-document.getElementById("orderItems").appendChild(clone)
+  document.getElementById("orderItems").appendChild(clone)
 
-}
+
+
+} 
 
 var div = document.getElementById('Order');
 
@@ -40,20 +44,28 @@ function addOrder() {
   
   input.placeholder = "Order";
   button.innerHTML = 'X';
-  // attach onlick event handler to remove button
   button.onclick = removeOrder;
+  // input.setAttribute("id","orderInput");
+  // button.setAttribute("id","remove")
   
+
   div.appendChild(input);
+  
   div.appendChild(button);
+  input.setAttribute("id","orderInput");
 }
 
 function removeOrder() {
-  // remove this button and its input
   div.removeChild(this.previousElementSibling);
   div.removeChild(this);
 }
 
-// attach onclick event handler to add button
+// add delete buttuons //
 document.getElementById('add').addEventListener('click', addOrder);
-// attach onclick event handler to 1st remove button
 document.getElementById('remove').addEventListener('click', removeOrder);
+
+//submit and delete//
+function deleteSomething(secondValue) {
+  alert("are you sure you want to delete this?");
+  document.getElementById("caterSubmit").value = "";
+}
