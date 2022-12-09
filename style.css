@@ -17,7 +17,7 @@
     color:pink
 }
 #backtotop{
-    display: flex; 
+    display: none; 
     position: fixed; 
     bottom: 20px; 
     right: 30px; 
@@ -180,12 +180,12 @@
     background-color: black;
     position:absolute;
     width:100%;
+   
 
 }
-@media screen and (max-width:1231px) {
+@media screen and (max-width:1150px) {
     .menu-items {
-    
-        height:1400px
+        height:400px
     }
 }
 @media screen and (max-width:580px) {
@@ -193,10 +193,7 @@
         width:50%
     }
 }
-.menu-items {
-    
-    height:1100px
-}
+
 #first-half {
     border-right:1px solid white;
     margin-top:10px;
@@ -246,6 +243,26 @@
     margin:40px;
     border-radius:2rem;
     padding-bottom:15px;
+    width:auto;
+    height:1100px
+}
+@media screen and (max-width:1231px){
+    .menu-items {
+       
+        height:1300px
+    }
+}
+@media screen and (max-width:1120px){
+    .menu-items {
+       
+        height:2000px
+    }
+}
+@media screen and (max-width:768px){
+    .menu-items {
+       
+        height:2600px
+    }
 }
 .hibachi-menu #first-half, .hibachi-menu #second-half{
     border:none
@@ -292,14 +309,79 @@ width:12.5%
 .order {
     background-image: url(image/orderbg.png);
     background-repeat:no-repeat;
-    background-size: 100%;
-    height:750px;
+    background-size: 2000px;
+    height:1000px;
     background-position: center;
 }
 .orderheader h2{
     margin-top:100px;
     font-size: 40px;
 }
+#Menu {
+    width:100%;
+    text-align: center;
+    background-color:rgb(0, 0, 0);
+    color:white;
+    opacity:.9
+}
+#orderInputFirst {
+    width:90%;
+    text-align: center;
+    font-weight: bold;
+    box-shadow:none;
+
+}
+#orderInput {
+    width:90%;
+    margin-right:10px;
+    text-align: center;
+    margin-top: 5px;
+    box-shadow:none;
+    font-weight: bold;
+    
+    
+}
+#orderItemsDiv h3  {
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    margin-top:7px;
+}
+.orderbg {
+    background: rgba(139, 31, 31, .5);
+    box-shadow: 1px 2px 10px rgba(0,0,0,.5);
+    height:300px;
+    overflow-y:auto;
+    overflow-x: hidden;
+    text-align: center;
+   
+    
+}
+#addBtn{
+background-color:#8B1F1F;
+color:white;
+overflow: hidden;
+white-space: nowrap;
+
+
+}
+#finishOrderBtn {
+    background-color:#8B1F1F;
+    
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+#finishOrderBtn a {
+    text-decoration: none;
+    color:white;
+}
+#add{
+    background-color:#8B1F1F;
+    color:white;
+    overflow: hidden;
+    white-space: nowrap;
+    }
 /* about */
 #about-top{
     background-image: url(image/aboutheader1.jpg);
@@ -532,10 +614,7 @@ iframe {
     filter: blur(px);
     background-position:center;
 }
-.cater-body{
-  /* margin-top:20px */
 
-}
 .cater-content {
     
     position:absolute;
@@ -641,7 +720,11 @@ height:vw;
 .font{
     font-family: "Bebas Neue", "Courier New", monospace;
 }
- 
+ /* @media screen and (max-width:760px){
+    #order-footer {
+        margin-top:200px
+    }
+ } */
 
 
  /* index1  */
@@ -655,15 +738,16 @@ height:vw;
     background-color: black;
     color:white;
     height:350px;
-    opacity:50%;
+    background: rgba(0, 0, 0, .75);
 }
-
+#fresh{
+    font-size: 40px;
+}
 #sakura {
     margin-top:5vw;
     text-align: center;
     animation: introduction 3s;
-    font-size:60px;
-    opacity: 100%;
+    font-size:70px;
 }
 @keyframes introduction {
     0% { opacity: 0;
@@ -688,19 +772,22 @@ height:vw;
     padding:5vw;
     width:80%;
     height: 10%;
+    background: rgba(0, 0, 0, .75);
     
 }  
-#img-home, #img-home-2{
-    opacity: 100%;
-    
-}
 .body-background-1{
-    background-image:url(image/homeimage.png);
+    background-image:url(image/homeimage3.jpg);
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #img-home{
-    width: 100%;
+    width: 105%;
     height: 100%;
+    background-repeat: no-repeat;
 }
 #img-background{
     margin-bottom: 5vw;
@@ -720,7 +807,8 @@ height:vw;
   
   .text {
     font-size: 2vw;
-    margin-top: 3vw;
+    margin-top: 5vw;
+   
     
   }
   .all a {
@@ -734,17 +822,49 @@ height:vw;
     margin-top:1rem;
     height:10px;
     width:100px;
+    margin-bottom: 7vw;
+    margin-left: 2vw;
+  }
+  .button-1{
+    background-color:#8B1F1F;
+    padding:10px;
+    padding-top:5px;
+    margin-top:1rem;
     padding-bottom:25px;
+    margin-right: 10vw;
+    margin-bottom: 2vw;
+    margin-left:30vw;
   }
 .button-2 {
     background-color:#8B1F1F;
     padding:10px;
     padding-top:5px;
     margin-top:1rem;
-    height:10px;
-    width:100px;
     padding-bottom:25px;
     margin-right: 10vw;
     margin-bottom: 2vw;
   }
-  
+  #button-size-1{
+    width:40%;
+    height:.5%;
+    text-align: center;
+    margin-left:7.5vw;
+  }
+  #word-size{
+    margin-top: 1rem;
+  }
+#button-size-1:hover{
+    background-color:rgb(180, 137, 80);
+} 
+
+
+
+
+
+
+
+
+
+
+
+/* submit */
