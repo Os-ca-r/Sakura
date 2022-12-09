@@ -49,26 +49,151 @@
       </div>
       
 
-  <div class="container">
-      <div id="orderItems">
+  <div class="container" id="orderItemsDiv">
+    <div class="row gx-5">
+      
+      <div class=" col-md-5 orderbg">
+        <h3>Choose from our Menu!</h3>
+        <div id="orderItems">
     <select id="Menu" >
       <optgroup label="Sushi">
       <option>Option</option>
-
+      <option> 
+        Beef Tataki
+        </option>
+        <option> 
+        Tuna Tataki
+        </option>
+        <option> 
+        Sushi Appetizer
+        </option>
+        <option> 
+        Pringles Chip Sushi Appetizer
+        </option>
+        <option> 
+        4 Piece Special
+        </option>
+        <option> 
+        5 Piece Special
+        </option>
+        <option> 
+        6 Pieces Special
+        </option>
+        <option> 
+        10 Pieces Special
+        </option>
+        <option> 
+        20 Pieces Specials
+        </option>
+        <optgroup label= Sashimi>
+        <option> 
+        BBQ Eel
+        </option>
+        <option> 
+        Cajun Tuna
+        </option>
+        <option> 
+        Fresh Salmon
+        </option>
+        <option> 
+        Mackerel
+        </option>
+        <option> 
+        Octopus
+        </option>
+        <option> 
+        Smoked Salmon
+        </option>
+        <option> 
+        Super White Tuna
+        </option>
+        <option> 
+        Tuna
+        </option>
+        <option> 
+        White Fish
+        </option>
+        <option> 
+        White Tuna
+        </option>
+        <option> 
+        Yellowtail
+        </option>
+        <option> 
+        4 kind Sashimi
+        </option>
+        <option> 
+        6 Kind Sashimi
+        </option>
+        <option> 
+        8 Kind Sashimi
+        </option>
+        <option> 
+        Sashimi 18 Pieces
+        </option>
+        <option> 
+        Sashimi 26 Pieces
+        </option>
+        <option> 
+        Sashimi 34 Pieces
+        </option>
+      </optgroup>
     </optgroup>
+    <optgroup label="Lunch Specials"> 
+        
+    <optgroup label="Teriyaki"><option>
+        Chicken Teriyaki  </option>
+      <option>
+      Beef Teriyaki
+      </option>
+      <option>Salmon Teriyaki</option>
+      <option>Pork Teriyaki</option>
+      <option>Saba Shioyaki</option>
+   </optgroup>
+   <optgroup label="Katsu">
+    <option>TonKatsu</option>
+    <option>Chicken Katsu</option>
 
+
+   </optgroup>
+   <optgroup label="Tempura">
+    <option>Shrimp Tempura</option>
+    <option>Chicken Tempura</option>
+    <option>Vegetable Tempura</option>
+
+   </optgroup>
+   <optgroup label="Desserts">
+    <option>Vanilla Ice Cream</option>
+    <option>Green Tea Ice Cream</option>
+    <option>Red Bean Ice Cream</option>
+    <option>Mango Ice Cream</option>
+    <option>Ginger Ice Cream</option>
+    <option>Banana Tempura</option>
+    <option>Banana Tempura with Ice Cream</option>
+    <option>Cheese cake Tempura</option>
+   </optgroup>
+    </optgroup>
     </select>
   </div>
+  <button  type="button" id="addBtn"onclick="cloneSelect()">Add More!</button>
+
   </div>
-
-  
-  <button  type="button" onclick="cloneSelect()">Add More!</button>
-
-  <div id="Order">
-    <input placeHolder="Order Now!" />
+  <div class="col-md-2 mt-5"></div>
+  <div class=" col-md-5 orderbg ">
+    <h3>Custom Orders</h3>
+      <div id="Order">
+    <input id="orderInputFirst"placeHolder="Order" />
     <button id="remove">X</button>
   </div>
   <button id="add">Add Order</button>
+  <br>
+  <button type="button" id="finishOrderBtn"><a href=order.html>Finish Order</a></button>
+  </div>
+</div>  
+  </div>
+
+  
+
 
   
   
@@ -86,7 +211,7 @@
 
 
   
-  <footer class="text-center text-lg-start bg-light text-muted">
+  <footer class="text-center text-lg-start bg-light text-muted" id="order-footer">
    
     <section class="footer">
       <div class="container-fluid text-center text-md-start">
