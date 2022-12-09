@@ -2,11 +2,11 @@
 // Get the button
 let mybutton = document.getElementById("backtotop");
 
-// When the user scrolls down 20px from the top of the document, show the button
+// When the user scrolls down 30px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20|| document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 30|| document.documentElement.scrollTop > 30) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
@@ -22,7 +22,7 @@ function topFunction() {
 
 //orderpage
 
-
+//dropdownlist clone
 var selectionCounter = 0
 function cloneSelect() {
   var br = document.createElement("br")
@@ -35,7 +35,7 @@ function cloneSelect() {
 
 
 } 
-
+//custom order
 var div = document.getElementById('Order');
 
 function addOrder() {
@@ -45,9 +45,7 @@ function addOrder() {
   input.placeholder = "Order";
   button.innerHTML = 'X';
   button.onclick = removeOrder;
-  // input.setAttribute("id","orderInput");
-  // button.setAttribute("id","remove")
-  
+
 
   div.appendChild(input);
   
