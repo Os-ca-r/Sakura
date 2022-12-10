@@ -368,7 +368,7 @@ width:12.5%
 #Menu {
     width:100%;
     text-align: center;
-    background-color:rgb(0, 0, 0);
+    background-color:#8B1F1F;
     color:white;
     opacity:.9
 }
@@ -377,7 +377,15 @@ width:12.5%
     text-align: center;
     font-weight: bold;
     box-shadow:none;
+    background-color:#8B1F1F;
+    color:white
 
+}
+#orderInputFirst::placeholder {
+    color:white;    
+}
+#orderInput::placeholder {
+    color:white;    
 }
 #orderInput {
     width:90%;
@@ -386,6 +394,7 @@ width:12.5%
     margin-top: 5px;
     box-shadow:none;
     font-weight: bold;
+    background-color:#8B1F1F;
     
     
 }
@@ -414,13 +423,16 @@ white-space: nowrap;
 
 }
 #finishOrderBtn {
+    margin-top:4px
+}
+#finishOrderBtn,#caterSubmit{
     background-color:#8B1F1F;
     
     overflow: hidden;
     white-space: nowrap;
     
 }
-#finishOrderBtn a {
+#finishOrderBtn a, #caterSubmit a{
     text-decoration: none;
     color:white;
 }
@@ -429,6 +441,7 @@ white-space: nowrap;
     color:white;
     overflow: hidden;
     white-space: nowrap;
+    margin-top:4px
     }
 /* about */
 #about-top{
@@ -617,6 +630,10 @@ margin-top:auto;
     margin-top:10px;
     margin-bottom:10px; 
 }
+#facebook {
+    text-decoration: none;
+    color:rgb(248, 93, 93)
+}
 iframe {
     align-content: center;
     
@@ -641,6 +658,7 @@ iframe {
     border-left:3px solid #311313;
     border-right:3px solid #311313;
     border-color:#311313;
+    color:white
 }
 .cater .cater-link.active {
     background-color:#8B1F1F;
@@ -652,6 +670,7 @@ iframe {
     height:55px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    outline-width: black 2px;
     
 }
 
@@ -690,11 +709,7 @@ iframe {
     margin-left:auto;
     margin-right:auto;
 }
-@media screen and (max-width:700px){
-    #cater-header {
-        width:250px;
-    }
-}
+
 .a {
     margin-top:700px;
 }
@@ -824,6 +839,11 @@ height:vw;
 @media screen and (max-width:580px) {
     .menu button {
         width:50%
+    }
+}
+@media screen and (max-width:700px){
+    #cater-header {
+        width:200px
     }
 }
  /* @media screen and (max-width:760px){

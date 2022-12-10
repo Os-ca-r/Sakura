@@ -1,8 +1,8 @@
 <h1>Sakura</h1>
 
 Sakura is a Japanese Restaruant located in Jackson, TN.
-This website is created by: Oscar Zheng, Daniel Doumitt, and Kevin Olvera.
-Inspired by their original <a href="https://www.sakurajackson.com/">website</a>
+This website is created by: RBS (Oscar Zheng (Team Leader), Daniel Doumitt, and Kevin Olvera.)
+Inspired by their original <a href="https://www.sakurajackson.com/">website</a>.
 
 <h1>Oscar Zheng</h1>
         I created the design for the index page;<br>
@@ -37,5 +37,6 @@ Inspired by their original <a href="https://www.sakurajackson.com/">website</a>
         I helped style the navbar; <br>
         I helped style the contact page;<br>
         i Structured the catering page and added the navbar and delete button and syled it to fit for mobile.<br>
+        I overall cleaned up the code to make it looks like we wanted it to.
 
 
