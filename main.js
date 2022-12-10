@@ -35,6 +35,7 @@ function cloneSelect() {
 
 
 } 
+
 //custom order
 var div = document.getElementById('Order');
 
@@ -66,4 +67,7 @@ document.getElementById('remove').addEventListener('click', removeOrder);
 function deleteSomething(secondValue) {
   alert("are you sure you want to delete this?");
   document.getElementById("caterSubmit").value = "";
+}
+function submitSomething(secondValue) {
+  alert("Success!");
 }
