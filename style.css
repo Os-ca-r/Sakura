@@ -422,6 +422,14 @@ white-space: nowrap;
 
 
 }
+#remove {
+    background-color:#8B1F1F;
+    color:white
+}
+#removeJS {
+    background-color:#8B1F1F;
+    color:white
+}
 #finishOrderBtn {
     margin-top:4px
 }

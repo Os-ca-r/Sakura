@@ -43,7 +43,7 @@ function addOrder() {
   var input = document.createElement('input'),
     button = document.createElement('button');
   
-  input.placeholder = "Order";
+  input.placeholder = "Type your Order";
   button.innerHTML = 'X';
   button.onclick = removeOrder;
 
@@ -52,6 +52,7 @@ function addOrder() {
   
   div.appendChild(button);
   input.setAttribute("id","orderInput");
+  button.setAttribute("id","removeJS");
 }
 
 function removeOrder() {
