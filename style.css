@@ -4,7 +4,8 @@
 }
 .navbar {
     /* height:70px; */
-    background-color:rgba(139, 31, 31, 1);
+    
+    background-color:rgba(139, 31, 31, 1); 
     opacity: 95%;
     
 }
@@ -16,6 +17,7 @@
 .nav-link:hover{
     color:pink
 }
+
 #backtotop{
     display: none; 
     position: fixed; 
@@ -57,7 +59,7 @@
     font-size: 40px;
 }
 #sakura {
-    margin-top:5vw;
+    margin-top:7vw;
     text-align: center;
     animation: introduction 3s;
     font-size:70px;
@@ -86,6 +88,7 @@
     width:80%;
     height: 10%;
     background: rgba(0, 0, 0, .75);
+    box-shadow:25px 6px 15px rgba(0,0,0,.6);
     
 }  
 .body-background-1{
@@ -109,6 +112,7 @@
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
+    margin-top:3vw;
 }
   .i {
     height: auto;
@@ -182,7 +186,6 @@
 .nav-tabs {
     border:none;
 }
-
 .menu {
     background-color: #8B1F1F;
     
@@ -191,11 +194,21 @@
     background-color: black;
     position:absolute;
     width:100%;
-   
-
 }
-
-
+.menuboxed{
+    background: rgba(139, 31, 31, 1);
+    border-radius: 25px;
+    margin: auto;
+    margin-top:100px;
+    margin-bottom:px;
+    width: 150px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+}
 #first-half {
     border-right:1px solid white;
     margin-top:10px;
@@ -322,8 +335,20 @@ width:12.5%
     box-shadow:none;
     font-weight: bold;
     background-color:#8B1F1F;
-    
-    
+}
+.orderboxed{
+    background: rgba(139, 31, 31, 1);
+    border-radius: 25px;
+    margin: auto;
+    margin-top:75px;
+    margin-bottom:80px;
+    width: 350px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color:rgb(255, 255, 255);
 }
 #orderItemsDiv h3  {
     color:white;
@@ -358,7 +383,8 @@ white-space: nowrap;
     color:white
 }
 #finishOrderBtn {
-    margin-top:4px
+    margin-top:3px;
+    color:white
 }
 #finishOrderBtn,#caterSubmit{
     background-color:#8B1F1F;
@@ -655,7 +681,7 @@ iframe {
     /* margin-bottom:auto; */
 }
 .form-control {
-    color:#8B1F1F;
+    color:rgb(255, 255, 255);
 }
 .cater-right input:focus, .cater-right textarea:focus {
   box-shadow:none;
@@ -664,7 +690,7 @@ iframe {
 } 
 
 .form-control::placeholder {
-    color:#8B1F1F
+    color:white
 }
 .cater-right {
     background-color:#8B1F1F;
@@ -688,7 +714,7 @@ height:vw;
     border:none;
 }
 .cater-body h2 {
-    border-bottom:black 2px solid; 
+    border-bottom:rgb(0, 0, 0) 2px solid; 
     
 }
 .comments {
