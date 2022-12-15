@@ -2,6 +2,7 @@
 .logo {
     margin-bottom: 20px;
 }
+
 .navbar {
     /* height:70px; */
     
@@ -48,6 +49,9 @@
 }
 .navbar-brand {
     color:white
+}
+.navbar-brand:hover {
+    color:pink
 }
 .intro {
     background-color: black;
@@ -448,6 +452,9 @@ white-space: nowrap;
     opacity: 80%;
     color:rgb(255, 255, 255);
 }
+#aboutus h2 {
+    font-weight:bold
+}
 .about-middle-row1{
 margin-top:50px;
 color:white;
@@ -727,7 +734,7 @@ height:vw;
     font-size:15px;
 }
 #footerbody{
-    color:black;
+    color:rgb(235, 224, 224);
 }
 #link {
     color:white;
@@ -741,6 +748,13 @@ height:vw;
     border-color: black;
     margin-top:15px;
 }
+.privacy a{
+    text-decoration: none;
+    color:white;
+    border-right:1px solid white;
+    margin-left:40px;
+    padding-right:30px
+}
 .test {
     height:2000px;
     color:green
@@ -751,7 +765,7 @@ height:vw;
 .font{
     font-family: "Bebas Neue", "Courier New", monospace;
 }
- 
+
 
 
 
